@@ -27,7 +27,7 @@ int _strcmp(char *s1, char *s2)
  *_strncmp -  function that compares two strings.
  *@s1: string one of variable
  *@s2: string two of the variable
- *@n: number of characters 
+ *@n: number of characters
  * Return: diference, if executed properly
  */
 int _strncmp(const char *s1, const char *s2, size_t n)

@@ -1,1 +1,3 @@
-Task on Simple Shell, which is a command-line interpreter that provides a command line user interface
+This directory contains the source codes for our simple shell project:
+
+contributors: @stephen @Victor

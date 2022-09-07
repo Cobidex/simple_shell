@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - shell proyect
- * @ac: count arguments
- * @av: store arguments
+ * main - shell proyect on simple shell
+ * @ac: count arguments in the program
+ * @av: store arguments in the program
  * @env: variable envirionment system
- * Return: estatus_exit value;
+ * Return: estatus_exit value; if executed properly
  **/
 
 int main(int ac, char *av[], char **env)

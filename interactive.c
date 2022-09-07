@@ -4,9 +4,10 @@
  * interactive and non-interactive mode (echo / cat).
  * @av: Pointer to strings with the Name of the function executed
  * in the first position.
- * @count_exe: Count how many times you receive a command to execute.
+ * @count_exe: Count how many times you receive a command to execute
+ * at that instance.
  * @env: Enviroment variable.
- * Return: status_exit value.
+ * Return: status_exit value, if executed properly.
  **/
 int interactive(char *av[], int count_exe, char **env)
 {

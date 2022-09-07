@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcpy - copies the string pointed to by src to the buffer pointed to dest
+ * _strcpy - copies the string pointed to by src to the buffer pointed to dest
  * @dest: char dest
  * @src: char src
- * Return: dest.
+ * Return: dest, if executed properly.
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -21,9 +21,9 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strlen - returns the length of a string.
- * @s: pointer to String
- * Return: Nothing
+ * _strlen - returns the length of a string of the program.
+ * @s: pointer to String of a function
+ * Return: Nothing on success
  */
 int _strlen(const char *s)
 {
@@ -40,7 +40,7 @@ int _strlen(const char *s)
  * _strcat - concatenates two strings.
  * @dest: string to destiny
  * @src: string to source
- * Return: Return a concatenate string
+ * Return: Return a concatenate string, if executed properly
  */
 char *_strcat(char *dest, char *src)
 {
@@ -83,10 +83,10 @@ char *_strcat(char *dest, char *src)
 
 /**
  * _strdup - this functions copy a string.
- * @str: the string to copy
+ * @str: the string to copy a function in a program
  * Description: this function copy a string)?
  * section header: the header of this function is hsh.
- * Return: this is a void function no return
+ * Return: this is a void function no return, if executed properly
  **/
 char *_strdup(char *str)
 {

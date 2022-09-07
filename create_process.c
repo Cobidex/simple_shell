@@ -4,7 +4,7 @@
  * @av: Pointer to an array of strings with all arguments of input buffer
  * @count_exe: Executions counter in each postiion.
  * @env: Enviroment variable.
- * Return: void
+ * Return: void, if executed properly
  **/
 int create_process(char *av[], int count_exe, char **env)
 {

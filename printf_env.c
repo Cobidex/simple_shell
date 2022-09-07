@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_env - print variable global envirionment
+ * print_env - print variable global envirionment of that program
  * @env: variable global envirionment system
- * Return: estatus_exit value;
+ * Return: estatus_exit value, if executed properly;
  **/
 
 void print_env(char **env)

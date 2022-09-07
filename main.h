@@ -38,4 +38,4 @@
 	void *_calloc(unsigned int nmemb, int size);
 	unsigned int lenght_array(char **p);
 
-#endif
+#endif /*MAIN_H*/

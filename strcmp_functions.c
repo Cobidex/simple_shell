@@ -2,12 +2,12 @@
 
 /**
  * _strcmp - this function compare two strings
- * @s1: the first string
- * @s2: the second string
+ * @s1: the first string of the program
+ * @s2: the second string of the program
  (* a blank line
  * Description: this function comparing two strings using the first value)?
  (* section header: the header of this function is holberton.h)*
- * Return: return a number depends os the resul fo comparation.
+ * Return: return a number depends os the resul fo comparation on success.
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -25,10 +25,10 @@ int _strcmp(char *s1, char *s2)
 
 /**
  *_strncmp -  function that compares two strings.
- *@s1: string one
- *@s2: string two
- *@n: number of characters
- * Return: diference
+ *@s1: string one of variable
+ *@s2: string two of the variable
+ *@n: number of characters 
+ * Return: diference, if executed properly
  */
 int _strncmp(const char *s1, const char *s2, size_t n)
 {

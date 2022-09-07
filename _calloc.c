@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _memset - fills memory with a constant byte.
- * @s: address begin to fill
+ * @s: address begin to fill the memory
  * @b: value to set on memory
  * @n: numbers of bytes to pointed by s
- * Return: char
+ * Return: char, if executed properly
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -18,11 +18,11 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 /**
- * _calloc - function that allocates memory for an array, using malloc
+ * _calloc - function that allocates memory for an array, using malloc function
  * @nmemb: amount to values to store on memory
  * @size: number of bytes of datatype
  *
- * Return: Void pointer
+ * Return: Void pointer, if executed properly
  */
 void *_calloc(unsigned int nmemb, int size)
 {

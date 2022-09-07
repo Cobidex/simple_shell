@@ -2,9 +2,9 @@
 
 /**
  * validate_file - validate if the filename exist in directory.
- * @full_path: All enviroment varible PATH
- * @file: name the command
- * Return: path the file
+ * @full_path: All enviroment varible PATH of the program
+ * @file: name the command of the variable
+ * Return: path the file, if executed properly
  **/
 char *validate_file(char *full_path, char *file)
 {

@@ -3,7 +3,7 @@
 /**
  * non_interact - This function get command line a through arguments of main.
  * @av: Pointer to strings with all arguments of input in each postiion.
- * Return: void.
+ * Return: void, if executed properly.
  **/
 void non_interact(char **av)
 {

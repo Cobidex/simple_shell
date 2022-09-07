@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _getenv - get variable enviriomment
+ * _getenv - get variable enviriomment on process
  * @name: name the variable envirionment
- * Return: char value envirionment
+ * @env: value of the variable environment
+ * Return: char value envirionment, if executed properly
  **/
 char *_getenv(char *name, char **env)
 {

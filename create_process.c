@@ -9,7 +9,7 @@
 int create_process(char *av[], int count_exe, char **env)
 {
 	char *path = NULL, *full_file = NULL, error_msg[100];
-	int status = 0, found = 0, alloc = 0, exit_status = 0;
+	int statu = 0, found = 0, alloc = 0, exit_status = 0;
 	pid_t child_pid;
 	struct stat st;
 
@@ -34,7 +34,7 @@ int create_process(char *av[], int count_exe, char **env)
 				(alloc == 1) ? free(full_file) : (void) alloc;
 			}
 		}
-		waitpid(child_pid, &status, 0), (alloc == 1) ? free(full_file) : (void) alloc;
+		waitpid(child_pid, &statu, 0), (alloc == 1) ? free(full_file) : (void) alloc;
 		if (WIFEXITED(status))
 		{
 			exit_status = WEXITSTATUS(status);
